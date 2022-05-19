@@ -1,0 +1,374 @@
+.App {
+  font-family: "HelveticaNeue";
+}
+
+/* Card */
+.card-container {
+  width: 304px;
+}
+
+.card-image {
+  width: 304px;
+  height: 228px;
+  background: #d8d8d8;
+}
+
+.card-name {
+  height: 28px;
+
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  color: #000000;
+  margin-top: 16px;
+}
+.card-rating {
+  margin-top: 8px;
+}
+.card-cousine-open {
+  height: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: 0.5px;
+  color: #757575;
+  margin-top: 16.56px;
+}
+
+.card-open {
+  display: flex;
+  align-items: center;
+}
+
+.indicator {
+  width: 8px;
+  height: 8px;
+  border-radius: 50px;
+  background-color: red;
+  margin-right: 4px;
+}
+
+.card-details-link {
+  height: 48px;
+  background: #002b56;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 48px;
+}
+
+/* Filter-Bar */
+
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #e6e6e6;
+  height: 80px;
+  border-bottom: 1px solid #e6e6e6;
+  margin-top: 36px;
+}
+
+.anchor-price {
+  width: 96px;
+  position: relative;
+  margin-left: 33px;
+  border-bottom: 1px solid #c8c8c8;
+  padding-bottom: 4px;
+
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: #002b56;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.anchor-category {
+  width: 192px;
+  position: relative;
+  margin-left: 33px;
+  border-bottom: 1px solid #c8c8c8;
+  padding-bottom: 4px;
+
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: #002b56;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.items {
+  position: absolute;
+
+  background: #ffffff;
+  border: 1px solid #c8c8c8;
+  box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.1), inset 0px -1px 0px #c8c8c8;
+  padding: 16px;
+}
+.items li {
+  list-style: none;
+  font-family: "HelveticaNeue";
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #606060;
+  margin-bottom: 11px;
+}
+.items li input {
+  margin-right: 8px;
+}
+.clear-button {
+  width: 151px;
+  height: 38px;
+  border: 1px solid #e6e6e6;
+  background: #ffffff;
+  margin-right: 64px;
+  border: 1px solid #002b56;
+  font-family: "HelveticaNeue";
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.857143px;
+  text-transform: uppercase;
+  color: #002b56;
+}
+
+.filter-element-right {
+  display: flex;
+  align-items: center;
+  margin-left: 63px;
+}
+.filter-by {
+  height: 24px;
+
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  color: #606060;
+}
+.open-now {
+  height: 16px;
+  margin-left: 24px;
+  width: 108px;
+
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: #002b56;
+  border-bottom: 1px solid #c8c8c8;
+  padding-bottom: 7px;
+}
+/*Restaurants*/
+
+.restaurant-heading {
+  width: 748px;
+  height: 64px;
+  margin-left: 64px;
+
+  margin-top: 36px;
+
+  font-size: 54px;
+  line-height: 64px;
+  letter-spacing: 0.964286px;
+  color: #333333;
+}
+.restaurant-discription {
+  width: 752px;
+  height: 64px;
+  margin-left: 64px;
+  margin-top: 3px;
+
+  font-size: 22px;
+  line-height: 24px;
+  letter-spacing: 0.916667px;
+  color: #666666;
+}
+.all-restaurant {
+  height: 40px;
+  margin-top: 64px;
+  margin-left: 64px;
+  font-size: 34px;
+  line-height: 40px;
+  letter-spacing: 1px;
+  color: #333333;
+}
+.restaurant-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin-top: 43px;
+  margin-left: 64px;
+  margin-right: 64px;
+}
+.loading {
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+}
+.load-more {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 416px;
+  height: 48px;
+  border: 1px solid #002b56;
+  border-radius: 2px;
+  font-family: "HelveticaNeue";
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: #002b53;
+}
+/*Restaurant Detail*/
+.detail-container {
+  margin-left: 64px;
+  margin-right: 64px;
+}
+.detail-title {
+  width: 748px;
+  height: 64px;
+  margin-top: 36px;
+
+  font-size: 54px;
+  line-height: 64px;
+  letter-spacing: 0.964286px;
+  color: #333333;
+}
+.card-rating {
+  margin-top: 8px;
+}
+.detail-cousine-open {
+  display: flex;
+  margin-top: 24px;
+  justify-content: space-between;
+  align-items: center;
+  height: 25px;
+
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 0.916667px;
+  color: #666666;
+}
+
+.detail-open {
+  display: flex;
+  align-items: center;
+}
+
+.indicator-detail {
+  width: 22px;
+  height: 22px;
+  border-radius: 50px;
+  background-color: red;
+  margin-right: 4px;
+}
+.detail-location {
+  margin-top: 49px;
+  height: 367px;
+  align-items: center;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+}
+.maps {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.map1 {
+  width: 640px;
+  height: 228px;
+  background: #d8d8d8;
+}
+.map2 {
+  width: 304px;
+  height: 228px;
+  background: #d8d8d8;
+}
+.detail-address {
+  width: 639px;
+  height: 28px;
+  margin-top: 15px;
+
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  color: #000000;
+}
+
+/* Restaurant Detail List */
+.list-container {
+  height: 398px;
+  border-bottom: 1px solid #e6e6e6;
+}
+.total-reviews {
+  width: 304px;
+  height: 32px;
+  margin-top: 48px;
+
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 0.916667px;
+  color: #666666;
+}
+.review-detail-card {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+.reviewer-details {
+  display: flex;
+}
+.review-image {
+  width: 80px;
+  height: 80px;
+  background: #d8d8d8;
+}
+.review-data {
+  width: 976px;
+}
+.reviewer-name {
+  width: 192px;
+  height: 24px;
+
+  font-size: 22px;
+  line-height: 24px;
+  letter-spacing: 0.916667px;
+  color: #000000;
+  margin-left: 32px;
+}
+.review-date {
+  width: 192px;
+  height: 24px;
+
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+  margin-left: 32px;
+}
+.review-detail {
+  margin-top: 20px;
+  width: 976px;
+
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  color: #000000;
+}
