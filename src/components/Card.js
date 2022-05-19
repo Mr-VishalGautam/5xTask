@@ -3,11 +3,10 @@ import { Rating } from "react-simple-star-rating";
 import { useNavigate } from "react-router-dom";
 
 function Card({ data }) {
-    
-  const navigate = useNavigate();
+    const navigate = useNavigate();
     function handleClick() {
-        navigate("/restaurant-review", { state: {data:data} });
-      }
+        navigate("/restaurant-review", { state: { data: data } });
+    }
     return (
         <div className="card-container">
             <div className="card-image"></div>
@@ -33,8 +32,10 @@ function Card({ data }) {
                     <div>{data.isOpen ? "OPEN NOW" : "CLOSED"}</div>
                 </div>
             </div>
-            
-                <div className="card-details-link" onClick={handleClick}>Learn more</div>
+
+            <div className="card-details-link" onClick={handleClick}>
+                Learn more
+            </div>
         </div>
     );
 }

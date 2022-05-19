@@ -17,7 +17,6 @@ function FilterBar({ isOpenFunction, priceFilterFunc, cousineFilterFunc }) {
     const handlePrice = (data) => {
         priceFilterFunc(data);
         setShowPrice(!showPrice);
-
     };
     const handleCousine = (data) => {
         cousineFilterFunc(data);
